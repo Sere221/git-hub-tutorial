@@ -1,0 +1,16 @@
+body {
+    color: rgb(195, 195, 195);
+    background: grey;
+}
+
+#first {
+    background: url('https://fikiwiki.com/uploads/posts/2022-02/1645057764_5-fikiwiki-com-p-kartinki-dart-veider-6.jpg')
+    no-repeat center top;
+    height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#second {
+    height: 2000px;
+}

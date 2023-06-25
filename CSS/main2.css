@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,400&display=swap');
+
+.main_text {
+    color:#E95240;
+    background-color: #646464;;
+    text-align: center;
+    font-size: 1.2em;
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+
+    text-transform: lowercase;
+    word-spacing: 20px;
+    letter-spacing: 2.5px;
+    line-height: 50px;
+    text-decoration: line-through;
+    cursor: pointer;
+}

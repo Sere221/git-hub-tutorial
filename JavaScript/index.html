@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Изучение JavaScript</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <h1>Добавление новости</h1>
+  <form id="main-form" method="post">
+    <label for="title"><h2>Заголовок статьи</h2></label>
+  	<input type="title" name="title" placeholder="Первая статья" id="title"><br>
+    <p class="_title">До 90 символов заголовок статьи</p>
+
+  	<label for="anons"><h2>Анонс новости</h2></label>
+  	<input type="anons" name="anons" placeholder="Проверочный текст для статьи" id="anons"><br><br>
+  	
+    <input type="radio" name="state" id="_state" value="Статья">
+  	<label for="male"><b>Статья</b></label><br>
+
+  	<input type="radio" name="state" id="_post" value="Пост">
+  	<label for="female"><b>Пост</b></label><br><br>
+
+    <div id="error" style="color: red"></div>
+  	<input type="submit" name="submit" value="Добавить">
+  </form>
+
+  <div class="bg-success" id="articles"></div>
+	<script src="main.js"></script>
+</body>
+</html>

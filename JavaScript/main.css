@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,400&display=swap');
+
+body
+{
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+._title
+{
+    font-size: 0.8em;
+    color: grey;
+}
+
+#title, #anons
+{
+    width: 500px;
+    border: 1px solid #bdbdbd;
+    border-radius: 0.25rem;
+    padding: 0.375rem 0.75rem;
+}
+
+#title
+{
+    height: calc(2rem + 2px);
+}
+
+#anons
+{
+    height: calc(3rem + 2px);
+}
